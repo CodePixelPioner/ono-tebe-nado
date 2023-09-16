@@ -55,8 +55,6 @@
   align-self: center;
 }
 
-
-
 .header_logo {
   display: block;
   align-self: center;
@@ -147,7 +145,7 @@
 
 .bet-button {
   border: 1px solid #fff;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   color: #fff;
   background-color: transparent;
   cursor: pointer;
@@ -167,7 +165,7 @@
 
 .lots_heading {
   color: #000;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -185,38 +183,28 @@
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
+  padding: 50px 40px;
+  max-width: 430px;
+  min-height: 450px;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .card-link {
   width: 100%;
   height: 100%;
-
   text-decoration: none;
 }
 
 .card_type_film {
-  position: relative;
-  z-index: 1;
-}
-
-.lots_card-lot-list-item {
-  position: relative;
-  max-width: 430px;
-  min-height: 450px;
-  padding: 50px 40px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.lots_image01 {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots_image02 {
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots_image03 {
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -224,11 +212,12 @@
   display: flex;
   column-gap: 25px;
   list-style: none;
+  position: relative;
 }
 
 .card_title {
   color: #fff;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -241,7 +230,7 @@
 
 .card_text {
   color: #fff;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -295,7 +284,7 @@
 
 .about_title {
   color: #000;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -310,7 +299,7 @@
   flex-direction: column;
   gap: 25px;
   color: #000;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -329,7 +318,7 @@
 .footer_menu {
   color: #000;
   text-align: center;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
