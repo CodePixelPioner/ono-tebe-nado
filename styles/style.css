@@ -36,6 +36,12 @@
   line-height: 1.35;
 }
 
+.header_link:hover {
+  color: #ffc0cb;
+  border-bottom: 1px solid #ffc0cb;
+  text-decoration: none;
+}
+
 .header_link {
   color: #000;
   font-size: 18px;
@@ -143,6 +149,12 @@
   margin-right: 78px;
 }
 
+.bet-button:hover {
+	border: 1px solid #ffc0cb;
+	color: #ffc0cb;
+	box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
 .bet-button {
   border: 1px solid #fff;
   font-family: "Raleway", Arial, sans-serif;
@@ -188,6 +200,10 @@
   min-height: 450px;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.card:hover {
+  box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.35);
 }
 
 .card-link {
@@ -240,7 +256,13 @@
   padding-top: 30px;
 }
 
-.lots__look-more-link {
+.lots_look-more-link:hover {
+  color: #ffc0cb;
+  border-bottom: 1px solid #ffc0cb;
+  text-decoration: none;
+}
+
+.lots_look-more-link {
   color: #000;
   font-size: 20px;
   font-weight: 400;
@@ -325,6 +347,12 @@
   line-height: normal;
 }
 
+.footer_menu-link:hover {
+  color: #ffc0cb;
+  border-bottom: 1px solid #ffc0cb;
+  text-decoration: none;
+}
+
 .footer_menu-link {
   border-bottom: 1px solid #000;
   text-decoration: none;
@@ -355,4 +383,9 @@
 .footer_social-icon {
   max-height: 48px;
   display: block;
+}
+
+.footer_social-icon:hover {
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 50%;
 }
