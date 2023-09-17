@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 92px 49px 92px 51px;
+  margin: auto;
 }
 
 .header_menu {
@@ -83,6 +84,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  margin: auto;
 }
 
 .overlay {
@@ -150,9 +152,9 @@
 }
 
 .bet-button:hover {
-	border: 1px solid #ffc0cb;
-	color: #ffc0cb;
-	box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.35);
+  border: 1px solid #ffc0cb;
+  color: #ffc0cb;
+  box-shadow: 20px 20px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .bet-button {
@@ -173,6 +175,7 @@
   position: relative;
   max-width: 1440px;
   max-height: 100%;
+  margin: auto;
 }
 
 .lots_heading {
@@ -198,12 +201,12 @@
   padding: 50px 40px;
   max-width: 430px;
   min-height: 450px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card:hover {
-  box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 20px 20px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .card-link {
@@ -280,6 +283,7 @@
   padding-bottom: 180px;
   position: relative;
   max-width: 1440px;
+  margin: auto;
 }
 
 .about_column {
@@ -335,6 +339,7 @@
   padding-bottom: 90px;
   display: flex;
   justify-content: space-between;
+  margin: auto;
 }
 
 .footer_menu {
@@ -386,6 +391,6 @@
 }
 
 .footer_social-icon:hover {
-	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.35);
   border-radius: 50%;
 }
